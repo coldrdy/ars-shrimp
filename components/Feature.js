@@ -26,7 +26,7 @@ const Feature = () => {
               src="/assets/ars/3.jpg"
               alt="Ars Shrimp"
               layout="responsive"
-              quality={100}
+              quality={75}
               height={414}
               width={508}
             />
@@ -39,7 +39,7 @@ const Feature = () => {
             We Provide Best Quality Shrimp
           </h3>
           <p className="my-2 text-black-500">
-          As the best shrimp supplier and exporter in Indonesia, we offer the best and high-quality export products. We are committed to marketing our frozen whole shrimp products internationally.</p>
+          Indonesia is one of the world's producers and exporters of shrimp, Shrimp is a mainstay of Indonesia's fishery commodities that are world export commodities, There are two types of shrimp commodities that are mainstays, namely <strong>Vannamei</strong> shrimp and <strong>Windu</strong> shrimp, West Java is one of the shrimp centers in Indonesia, namely the city of Cirebon which is translated as the <strong>Shrimp City</strong>.</p>
           <ul className="text-black-500 self-start list-inside ml-8">
             {features.map((feature, index) => (
               <motion.li
