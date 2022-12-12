@@ -39,7 +39,7 @@ const Gallery = () => {
                             <Image
                                 src="/assets/ars/1.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-2"
-                                alt=""
+                                alt="Ars Shrimp"
                                 width={264}
                                 height={176}
                                 quality={50}
@@ -47,7 +47,7 @@ const Gallery = () => {
                             <Image
                                 src="/assets/ars/2.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-0"
-                                alt=""
+                                alt="Ars Shrimp"
                                 width={264}
                                 height={176}
                                 quality={50}
@@ -55,7 +55,7 @@ const Gallery = () => {
                             <Image
                                 src="/assets/ars/3.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-0"
-                                alt=""
+                                alt="Ars Shrimp"
                                 width={264}
                                 height={176}
                                 quality={50}
@@ -63,7 +63,7 @@ const Gallery = () => {
                             <Image
                                 src="/assets/ars/4.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-0"
-                                alt=""
+                                alt="Ars Shrimp"
                                 width={264}
                                 height={176}
                                 quality={50}
@@ -78,7 +78,7 @@ const Gallery = () => {
                             <Image
                                 src="/assets/ars/5.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-0"
-                                alt=""
+                                alt="Ars Shrimp"
                                 width={264}
                                 height={176}
                                 quality={50}
@@ -86,7 +86,7 @@ const Gallery = () => {
                             <Image
                                 src="/assets/ars/6.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-0"
-                                alt=""
+                                alt="Ars Shrimp"
                                 width={264}
                                 height={176}
                                 quality={50}
@@ -94,7 +94,7 @@ const Gallery = () => {
                             <Image
                                 src="/assets/ars/7.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-0"
-                                alt=""
+                                alt="Ars Shrimp"
                                 width={264}
                                 height={176}
                                 quality={50}
@@ -102,7 +102,7 @@ const Gallery = () => {
                             <Image
                                 src="/assets/ars/8.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-0"
-                                alt=""
+                                alt="Ars Shrimp"
                                 width={264}
                                 height={176}
                                 quality={50}
@@ -117,7 +117,7 @@ const Gallery = () => {
                             <Image
                                 src="/assets/ars/9.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-0"
-                                alt=""
+                                alt="Ars Shrimp"
                                 width={264}
                                 height={176}
                                 quality={50}
@@ -125,7 +125,7 @@ const Gallery = () => {
                             <Image
                                 src="/assets/ars/10.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-0"
-                                alt=""
+                                alt="Ars Shrimp"
                                 width={264}
                                 height={176}
                                 quality={50}
@@ -133,7 +133,7 @@ const Gallery = () => {
                             <Image
                                 src="/assets/ars/11.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-0"
-                                alt=""
+                                alt="Ars Shrimp"
                                 width={264}
                                 height={176}
                                 quality={50}
