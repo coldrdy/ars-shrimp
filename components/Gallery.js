@@ -4,6 +4,7 @@ import ButtonPrimary from "./misc/ButtonPrimary";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import Image from "next/image";
 
 const Gallery = () => {
     const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -35,25 +36,37 @@ const Gallery = () => {
                             className="w-full flex justify-evenly items-center mt-4 flex-wrap lg:flex-nowrap"
                             variants={scrollAnimation}
                         >
-                            <img
+                            <Image
                                 src="/assets/ars/1.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-2"
                                 alt=""
+                                width={264}
+                                height={176}
+                                quality={50}
                             />
-                            <img
+                            <Image
                                 src="/assets/ars/2.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-0"
                                 alt=""
+                                width={264}
+                                height={176}
+                                quality={50}
                             />
-                            <img
+                            <Image
                                 src="/assets/ars/3.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-0"
                                 alt=""
+                                width={264}
+                                height={176}
+                                quality={50}
                             />
-                            <img
+                            <Image
                                 src="/assets/ars/4.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-0"
                                 alt=""
+                                width={264}
+                                height={176}
+                                quality={50}
                             />
                         </motion.div>
                     </ScrollAnimationWrapper>
@@ -62,25 +75,37 @@ const Gallery = () => {
                             className="w-full flex justify-evenly items-center mt-4 flex-wrap lg:flex-nowrap"
                             variants={scrollAnimation}
                         >
-                            <img
+                            <Image
                                 src="/assets/ars/5.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-0"
                                 alt=""
+                                width={264}
+                                height={176}
+                                quality={50}
                             />
-                            <img
+                            <Image
                                 src="/assets/ars/6.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-0"
                                 alt=""
+                                width={264}
+                                height={176}
+                                quality={50}
                             />
-                            <img
+                            <Image
                                 src="/assets/ars/7.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-0"
                                 alt=""
+                                width={264}
+                                height={176}
+                                quality={50}
                             />
-                            <img
+                            <Image
                                 src="/assets/ars/8.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-0"
                                 alt=""
+                                width={264}
+                                height={176}
+                                quality={50}
                             />
                         </motion.div>
                     </ScrollAnimationWrapper>
@@ -89,20 +114,29 @@ const Gallery = () => {
                             className="w-full flex justify-evenly items-center mt-4 flex-wrap lg:flex-nowrap"
                             variants={scrollAnimation}
                         >
-                            <img
+                            <Image
                                 src="/assets/ars/9.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-0"
                                 alt=""
+                                width={264}
+                                height={176}
+                                quality={50}
                             />
-                            <img
+                            <Image
                                 src="/assets/ars/10.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-0"
                                 alt=""
+                                width={264}
+                                height={176}
+                                quality={50}
                             />
-                            <img
+                            <Image
                                 src="/assets/ars/11.jpg"
                                 className="h-44 w-auto mt-4 lg:mt-0"
                                 alt=""
+                                width={264}
+                                height={176}
+                                quality={50}
                             />
                         </motion.div>
                     </ScrollAnimationWrapper>
