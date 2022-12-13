@@ -10,40 +10,40 @@ import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 const Testimoni = ({
   listTestimoni = [
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
+      name: "Alejandro",
+      image: "/assets/people-1.png",
+      city: "Paris",
+      country: "France",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "I am very satisfied with the exported shrimp from Ars Shrimp. The taste and quality are great, and I will make sure to order again in the future.",
     },
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      name: "Ahmed",
+      image: "/assets/user.png",
+      city: "Jeddah",
+      country: "Saudi Arabia",
+      rating: "4.8",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Since I first tried the exported shrimp from Ars Shrimp, I fell in love. The texture is soft and crispy, and the taste is very delicious. I will recommend this product to my friends.",
     },
     {
-      name: "iezh Robert",
+      name: "Zeynep",
       image: "/assets/people-3.png",
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
+      city: "Dubai",
+      country: "UEA",
+      rating: "4.8",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "The exported shrimp from Ars Shrimp is one of the best I have ever tried. The quality is very high and I am happy to be able to get a product of this quality.",
     },
     {
-      name: "iezh Robert",
-      image: "/assets/people-3.png",
+      name: "Asma",
+      image: "/assets/people-2.png",
       city: "Warsaw",
       country: "Poland",
-      rating: "4.5",
+      rating: "4.9",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "After ordering the exported shrimp from Ars Shrimp, I was very surprised by the quality and taste offered. I will make sure to order again in the future.",
     },
   ],
 }) => {
@@ -105,7 +105,7 @@ const Testimoni = ({
                       {listTestimonis.name}
                     </p>
                     <p className="text-sm text-black-500 capitalize">
-                      {listTestimonis.city},{listTestimonis.country}
+                      {listTestimonis.city}, {listTestimonis.country}
                     </p>
                   </div>
                 </div>

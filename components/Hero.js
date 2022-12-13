@@ -41,7 +41,7 @@ const Hero = ({
             <motion.div className="h-full w-full" variants={scrollAnimation}>
               <Image
                 src="/assets/hero.jpg"
-                alt="VPN Illustrasi"
+                alt="Ars Shrimp"
                 quality={100}
                 width={612}
                 height={383}
