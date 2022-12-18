@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Link from "next/link";
 import { Link as LinkScroll } from "react-scroll";
 import ButtonOutline from "../misc/ButtonOutline.";
 import LogoArs from "../../public/assets/ars/logo.svg";
@@ -41,7 +40,7 @@ const Header = () => {
                   : " text-black-500 hover:text-orange-500 a")
               }
             >
-              About
+              Tentang
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -59,7 +58,7 @@ const Header = () => {
                   : " text-black-500 hover:text-orange-500 ")
               }
             >
-              Gallery
+              Galeri
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -77,12 +76,12 @@ const Header = () => {
                   : " text-black-500 hover:text-orange-500 ")
               }
             >
-              Products
+              Produk
             </LinkScroll>
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <ButtonOutline>
-              <a href="https://wa.me/6283103245728">Contact Us</a>
+              <a href="https://wa.me/6283103245728">Hubungi Kami</a>
             </ButtonOutline>
           </div>
         </nav>
@@ -122,7 +121,7 @@ const Header = () => {
                   d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              About
+              Tentang
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -154,7 +153,7 @@ const Header = () => {
                   d="M1,1 L19,1 L19,19 L1,19 L1,1 Z M5,19 L5,23 L23,23 L23,5.97061363 L18.9998921,5.97061363 M6,8 C6.55228475,8 7,7.55228475 7,7 C7,6.44771525 6.55228475,6 6,6 C5.44771525,6 5,6.44771525 5,7 C5,7.55228475 5.44771525,8 6,8 Z M2,18 L7,12 L10,15 L14,10 L19,16"
                 />
               </svg>
-              Gallery
+              Galeri
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -186,7 +185,7 @@ const Header = () => {
                   d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              Products
+              Produk
             </LinkScroll>
           </ul>
         </div>

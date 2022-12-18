@@ -1,10 +1,7 @@
 import React, { useMemo } from "react";
-import Testimoni from "./Testimoni";
-import ButtonPrimary from "./misc/ButtonPrimary";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
-import Image from "next/image";
 
 const Gallery = () => {
     const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -21,14 +18,13 @@ const Gallery = () => {
                             variants={scrollAnimation}
                             className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto"
                         >
-                            Gallery{" "}
+                            Galeri{" "}
                         </motion.h3>
                         <motion.p
                             className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12"
                             variants={scrollAnimation}
                         >
-                            See the activity of our shrimp farm and our shrimp processing
-                            plant.
+                            Lihat aktivitas kami
                         </motion.p>
                     </ScrollAnimationWrapper>
                     <ScrollAnimationWrapper>

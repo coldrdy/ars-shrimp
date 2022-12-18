@@ -21,14 +21,13 @@ const Product = () => {
                             variants={scrollAnimation}
                             className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed"
                         >
-                            Products
+                            Produk
                         </motion.h3>
                         <motion.p
                             variants={scrollAnimation}
                             className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
                         >
-                            Let's choose the package that is best for you and explore it happily
-                            and cheerfully.
+                            Pilih paket yang terbaik untuk Anda
                         </motion.p>
                     </ScrollAnimationWrapper>
                     <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
@@ -55,24 +54,24 @@ const Product = () => {
                                 Vannamei
                                 </p>
                                 <p className="text-md text-black-500 font-light text-justify mb-9">
-                                Vannamei shrimp or white shrimp is an Indonesian cultured shrimp species native to Central America, a type of shrimp commonly called Pacific white shrimp. The advantage of Vannamei shrimp is that it contains good omega 3 and astatanthin for heart health. The content can prevent various heart disease risks. Because it can regulate the level of TRIGLYCERIDES in the human body.
+                                Udang Vannamei atau udang putih merupakan spesies udang budidaya Indonesia yang berasal dari Amerika Tengah, jenis udang yang biasa disebut Pacific White Shrimp. Kelebihan udang Vannamei adalah mengandung lemak omega 3 dan astatanthin yang baik untuk kesehatan jantung. Kandungan tersebut dapat mencegah berbagai resiko penyakit jantung karena dapat mengatur kadar trigliserida dalam tubuh manusia.
                                 </p>
                                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                                     <li className="relative check custom-list my-2">
-                                        Size: 30-100
+                                        Ukuran: 30-100
                                     </li>
                                     <li className="relative check custom-list my-2">
-                                        Package: Colorful Box
+                                        Kemasan: Box Gaya Kotak Warna 
                                     </li>
                                     <li className="relative check custom-list my-2">
-                                        Payment: Down Payment
+                                        Pembayaran: Down Payment
                                     </li>
                                 </ul>
                                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
                                     {/* <p className="text-2xl text-black-600 text-center mb-4 ">
                                         Free
                                     </p> */}
-                                    <ButtonOutline><Link href="https://wa.me/6283103245728">Discussion</Link></ButtonOutline>
+                                    <ButtonOutline><Link href="https://wa.me/6283103245728">Hubungi kami</Link></ButtonOutline>
                                 </div>
                             </motion.div>
                         </ScrollAnimationWrapper>

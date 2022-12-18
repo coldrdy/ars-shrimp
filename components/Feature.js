@@ -5,10 +5,10 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
 const features = [
-  "Top Quality.",
+  "Kualitas Terbaik.",
   "100% Natural.",
-  "Trusted.",
-  "Hygienic."
+  "Terpercaya.",
+  "Higienis."
 ]
 
 const Feature = () => {
@@ -36,10 +36,10 @@ const Feature = () => {
 
         <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
           <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
-            We Provide Best Quality Shrimp
+            Kami menyediakan Udang dengan kualitas Terbaik
           </h3>
           <p className="my-2 text-black-500">
-          Indonesia is one of the world's producers and exporters of shrimp, Shrimp is a mainstay of Indonesia's fishery commodities that are world export commodities, There are two types of shrimp commodities that are mainstays, namely <strong>Vannamei</strong> shrimp and <strong>Windu</strong> shrimp, West Java is one of the shrimp centers in Indonesia, namely the city of Cirebon which is translated as the <strong>Shrimp City</strong>.</p>
+          Indonesia adalah salah satu produsen dan eksportir udang terbesar di dunia, Udang merupakan komoditas perikanan utama Indonesia yang merupakan komoditas ekspor dunia, Terdapat dua jenis komoditas udang yang utama, yaitu udang <strong>Vannamei</strong> dan udang <strong>Windu</strong>, Jawa Barat merupakan salah satu pusat udang di Indonesia, yaitu kota Cirebon yang diterjemahkan sebagai <strong>Kota Udang</strong>.</p>
           <ul className="text-black-500 self-start list-inside ml-8">
             {features.map((feature, index) => (
               <motion.li

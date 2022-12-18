@@ -7,14 +7,14 @@ const defaultMeta = {
   title: 'Ars Shirmp',
   siteName: 'Ars Shrimp',
   description:
-    'Ars Shrimp is a global distributor of Shrimp from Indonesia.',
+    'Ars Shrimp adalah distributor Udang Global dari Indonesia.',
   // change base url of your web (without '/' at the end)
-  url: 'https://arsshrimp.com',
+  url: 'https://id.arsshrimp.com',
   type: 'website',
   robots: 'follow, index',
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status 
-  image: 'https://arsshrimp.com/assets/ars/og-ars.webp',
+  image: 'https://id.arsshrimp.com/assets/ars/og-ars.webp',
   author: 'Ars Shrimp',
 };
 
