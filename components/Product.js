@@ -32,16 +32,8 @@ const Product = () => {
                     </ScrollAnimationWrapper>
                     <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
                         <ScrollAnimationWrapper className="flex justify-center">
-                            <motion.div
-                                variants={scrollAnimation}
-                                className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
-                                whileHover={{
-                                    scale: 1.1,
-                                    transition: {
-                                        duration: .1
-                                    }
-                                }}
-                            >
+                            <div
+                                className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20">
                                 <div className="p-4 lg:p-0 mt-6 lg:mt-16">
                                     <Image
                                         src="/assets/ars/p-1.jpg"
@@ -51,17 +43,17 @@ const Product = () => {
                                     />
                                 </div>
                                 <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
-                                Vannamei
+                                    Vannamei
                                 </p>
                                 <p className="text-md text-black-500 font-light text-justify mb-9">
-                                Udang Vannamei atau udang putih merupakan spesies udang budidaya Indonesia yang berasal dari Amerika Tengah, jenis udang yang biasa disebut Pacific White Shrimp. Kelebihan udang Vannamei adalah mengandung lemak omega 3 dan astatanthin yang baik untuk kesehatan jantung. Kandungan tersebut dapat mencegah berbagai resiko penyakit jantung karena dapat mengatur kadar trigliserida dalam tubuh manusia.
+                                    Udang Vannamei atau udang putih merupakan spesies udang budidaya Indonesia yang berasal dari Amerika Tengah, jenis udang yang biasa disebut Pacific White Shrimp. Kelebihan udang Vannamei adalah mengandung lemak omega 3 dan astatanthin yang baik untuk kesehatan jantung. Kandungan tersebut dapat mencegah berbagai resiko penyakit jantung karena dapat mengatur kadar trigliserida dalam tubuh manusia.
                                 </p>
                                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
                                     <li className="relative check custom-list my-2">
                                         Ukuran: 30-100
                                     </li>
                                     <li className="relative check custom-list my-2">
-                                        Kemasan: Box Gaya Kotak Warna 
+                                        Kemasan: Box Gaya Kotak Warna
                                     </li>
                                     <li className="relative check custom-list my-2">
                                         Pembayaran: Down Payment
@@ -73,7 +65,7 @@ const Product = () => {
                                     </p> */}
                                     <ButtonOutline><Link href="https://wa.me/6283103245728">Hubungi kami</Link></ButtonOutline>
                                 </div>
-                            </motion.div>
+                            </div>
                         </ScrollAnimationWrapper>
                         {/* <ScrollAnimationWrapper className="flex justify-center">
                             <motion.div
