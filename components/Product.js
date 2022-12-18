@@ -4,6 +4,7 @@ import ButtonOutline from "./misc/ButtonOutline.";
 import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import Link from "next/link";
 
 const Product = () => {
     const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -38,7 +39,7 @@ const Product = () => {
                                 whileHover={{
                                     scale: 1.1,
                                     transition: {
-                                        duration: .2
+                                        duration: .1
                                     }
                                 }}
                             >
@@ -71,7 +72,7 @@ const Product = () => {
                                     {/* <p className="text-2xl text-black-600 text-center mb-4 ">
                                         Free
                                     </p> */}
-                                    <ButtonOutline>Discussion</ButtonOutline>
+                                    <ButtonOutline><Link href="https://wa.me/6283103245728">Discussion</Link></ButtonOutline>
                                 </div>
                             </motion.div>
                         </ScrollAnimationWrapper>

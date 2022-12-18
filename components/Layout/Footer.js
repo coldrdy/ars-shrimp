@@ -3,14 +3,23 @@ import LogoArs from "../../public/assets/ars/logo.svg";
 import Facebook from "../../public/assets/Icon/facebook.svg";
 import Twitter from "../../public/assets/Icon/twitter.svg";
 import Instagram from "../../public/assets/Icon/instagram.svg";
+import { Link as LinkScroll } from "react-scroll";
+
 const Footer = () => {
   return (
-    <div className="bg-white-300 pt-44 pb-24">
+    <div className="bg-white-600 pt-44 pb-24">
       <div className="max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16 grid grid-rows-6 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-3 sm:grid-cols-12 gap-4">
         <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
-          <LogoArs className="h-16 w-auto mb-6" />
+          <LogoArs className="h-16 w-auto mb-6 mt-7" />
           <p className="mb-4">
             <strong className="font-medium">Ars Shrimp</strong> is a global distributor of Shrimp from Indonesia.
+          </p>
+          <p className="mb-4">
+            <h6 className="mt-2"><strong>Address:</strong> CV. Sumber KDH Gebang Kulon, Kec. Gebang, Kab. Cirebon, Jawa Barat, Indonesia 45190</h6>
+            <h6 className="mt-2"><strong>Monday - Thursday:</strong> 08.00 - 16.00 WIB</h6>
+            <h6 className="mt-2"><strong>Friday - Sunday:</strong> 08.00 - 17.00 WIB</h6>
+            <h6 className="mt-2"><strong>Email:</strong><a className="hover:text-orange-500 cursor-pointer transition-all" href="mailto:arsshrimp@gmail.com"> arsshrimp@gmail.com</a></h6>
+            <h6 className="mt-2"><strong>Phone/WhatsApp:</strong><a className="hover:text-orange-500 cursor-pointer transition-all" href="https://wa.me/6283103245728"> +62 8310 3245 728</a></h6>
           </p>
           <div className="flex w-full mt-2 mb-8 -mx-2">
             <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
@@ -23,32 +32,17 @@ const Footer = () => {
               <Instagram className="h-6 w-6" />
             </div>
           </div>
-          <p className="text-gray-400">©{new Date().getFullYear()} - Ars Shrimp</p>
+          <p className="text-gray-400">©{new Date().getFullYear()}, Ars Shrimp</p>
         </div>
-        <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Product</p>
+        <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col mt-8">
+          <p className="text-black-600 mb-4 font-medium text-lg">Links</p>
           <ul className="text-black-500 ">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Download{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Pricing{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Locations{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Server{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Countries{" "}
-            </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Blog{" "}
+              <a href="https://id.arsshrimp.com">🇮🇩 Bahasa Indonesia</a>
             </li>
           </ul>
         </div>
-        <div className="row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
+        {/* <div className="row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
           <p className="text-black-600 mb-4 font-medium text-lg">Engage</p>
           <ul className="text-black-500">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
@@ -81,7 +75,7 @@ const Footer = () => {
               Become Partner{" "}
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );

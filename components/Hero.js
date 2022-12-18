@@ -40,7 +40,7 @@ const Hero = ({
           <div className="flex w-full">
             <motion.div className="h-full w-full" variants={scrollAnimation}>
               <Image
-                src="/assets/hero.jpg"
+                src="/assets/ars/1.webp"
                 alt="Ars Shrimp"
                 quality={100}
                 width={612}

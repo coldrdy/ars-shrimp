@@ -36,76 +36,37 @@ const Gallery = () => {
                             className="w-full flex justify-evenly items-center mt-4 flex-wrap lg:flex-nowrap"
                             variants={scrollAnimation}
                         >
-                            <Image
-                                src="/assets/ars/1.jpg"
-                                className="h-44 w-auto mt-4 lg:mt-2"
-                                alt="Ars Shrimp"
-                                width={264}
-                                height={176}
-                                quality={50}
-                            />
-                            <Image
-                                src="/assets/ars/2.jpg"
+                            <img
+                                src="/assets/ars/1.webp"
                                 className="h-44 w-auto mt-4 lg:mt-0"
                                 alt="Ars Shrimp"
                                 width={264}
                                 height={176}
-                                quality={50}
+                                loading="lazy"
                             />
-                            <Image
-                                src="/assets/ars/3.jpg"
+                            <img
+                                src="/assets/ars/2.webp"
                                 className="h-44 w-auto mt-4 lg:mt-0"
                                 alt="Ars Shrimp"
                                 width={264}
                                 height={176}
-                                quality={50}
+                                loading="lazy"
                             />
-                            <Image
-                                src="/assets/ars/4.jpg"
+                            <img
+                                src="/assets/ars/3.webp"
                                 className="h-44 w-auto mt-4 lg:mt-0"
                                 alt="Ars Shrimp"
                                 width={264}
                                 height={176}
-                                quality={50}
+                                loading="lazy"
                             />
-                        </motion.div>
-                    </ScrollAnimationWrapper>
-                    <ScrollAnimationWrapper>
-                        <motion.div
-                            className="w-full flex justify-evenly items-center mt-4 flex-wrap lg:flex-nowrap"
-                            variants={scrollAnimation}
-                        >
-                            <Image
-                                src="/assets/ars/5.jpg"
+                            <img
+                                src="/assets/ars/4.webp"
                                 className="h-44 w-auto mt-4 lg:mt-0"
                                 alt="Ars Shrimp"
                                 width={264}
                                 height={176}
-                                quality={50}
-                            />
-                            <Image
-                                src="/assets/ars/6.jpg"
-                                className="h-44 w-auto mt-4 lg:mt-0"
-                                alt="Ars Shrimp"
-                                width={264}
-                                height={176}
-                                quality={50}
-                            />
-                            <Image
-                                src="/assets/ars/7.jpg"
-                                className="h-44 w-auto mt-4 lg:mt-0"
-                                alt="Ars Shrimp"
-                                width={264}
-                                height={176}
-                                quality={50}
-                            />
-                            <Image
-                                src="/assets/ars/8.jpg"
-                                className="h-44 w-auto mt-4 lg:mt-0"
-                                alt="Ars Shrimp"
-                                width={264}
-                                height={176}
-                                quality={50}
+                                loading="lazy"
                             />
                         </motion.div>
                     </ScrollAnimationWrapper>
@@ -114,29 +75,68 @@ const Gallery = () => {
                             className="w-full flex justify-evenly items-center mt-4 flex-wrap lg:flex-nowrap"
                             variants={scrollAnimation}
                         >
-                            <Image
-                                src="/assets/ars/9.jpg"
+                            <img
+                                src="/assets/ars/5.webp"
                                 className="h-44 w-auto mt-4 lg:mt-0"
                                 alt="Ars Shrimp"
                                 width={264}
                                 height={176}
-                                quality={50}
+                                loading="lazy"
                             />
-                            <Image
-                                src="/assets/ars/10.jpg"
+                            <img
+                                src="/assets/ars/6.webp"
                                 className="h-44 w-auto mt-4 lg:mt-0"
                                 alt="Ars Shrimp"
                                 width={264}
                                 height={176}
-                                quality={50}
+                                loading="lazy"
                             />
-                            <Image
-                                src="/assets/ars/11.jpg"
+                            <img
+                                src="/assets/ars/7.webp"
                                 className="h-44 w-auto mt-4 lg:mt-0"
                                 alt="Ars Shrimp"
                                 width={264}
                                 height={176}
-                                quality={50}
+                                loading="lazy"
+                            />
+                            <img
+                                src="/assets/ars/8.webp"
+                                className="h-44 w-auto mt-4 lg:mt-0"
+                                alt="Ars Shrimp"
+                                width={264}
+                                height={176}
+                                loading="lazy"
+                            />
+                        </motion.div>
+                    </ScrollAnimationWrapper>
+                    <ScrollAnimationWrapper>
+                        <motion.div
+                            className="w-full flex justify-evenly items-center mt-4 flex-wrap lg:flex-nowrap"
+                            variants={scrollAnimation}
+                        >
+                            <img
+                                src="/assets/ars/9.webp"
+                                className="h-44 w-auto mt-4 lg:mt-0"
+                                alt="Ars Shrimp"
+                                width={264}
+                                height={176}
+                                loading="lazy"
+                            />
+                            <img
+                                src="/assets/ars/10.webp"
+                                className="h-44 w-auto mt-4 lg:mt-0"
+                                alt="Ars Shrimp"
+                                width={264}
+                                height={176}
+                                loading="lazy"
+                            />
+                            <img
+                                src="/assets/ars/11.webp"
+                                className="h-44 w-auto mt-4 lg:mt-0"
+                                alt="Ars Shrimp"
+                                width={264}
+                                height={176}
+                                loading="lazy"
                             />
                         </motion.div>
                     </ScrollAnimationWrapper>

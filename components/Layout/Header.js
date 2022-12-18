@@ -82,7 +82,7 @@ const Header = () => {
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <ButtonOutline>
-              <a href="https://umarhadi.dev">Contact Us</a>
+              <a href="https://wa.me/6283103245728">Contact Us</a>
             </ButtonOutline>
           </div>
         </nav>

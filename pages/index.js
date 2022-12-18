@@ -4,7 +4,7 @@ import Hero from "../components/Hero";
 import Layout from "../components/Layout/Layout";
 import SeoHead from "../components/SeoHead";
 import Product from "../components/Product";
-import Foot from "../components/Foot";
+import FootAgain from "../components/FootAgain";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
         <Feature />
         <Gallery />
         <Product />
-        <Foot />
+        <FootAgain />
       </Layout>
     </>
   );

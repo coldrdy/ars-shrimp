@@ -23,7 +23,7 @@ const Feature = () => {
         <ScrollAnimationWrapper className="flex w-full justify-end">
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
-              src="/assets/ars/3.jpg"
+              src="/assets/ars/3.webp"
               alt="Ars Shrimp"
               layout="responsive"
               quality={75}
