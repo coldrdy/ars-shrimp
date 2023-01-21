@@ -51,8 +51,8 @@ packages:
     engines: {node: '>=6.9.0'}
     dev: true
 
-  /@babel/parser/7.20.7:
-    resolution: {integrity: sha512-T3Z9oHybU+0vZlY9CiDSJQTD5ZapcW18ZctFMi0MOAl/4BjFF4ul7NVSARLdbGO5vDqy9eQiGTV0LtKfvCYvcg==}
+  /@babel/parser/7.20.13:
+    resolution: {integrity: sha512-gFDLKMfpiXCsjt4za2JA9oTMn70CeseCehb11kRZgvd7+F67Hih3OHOK24cRrWECJ/ljfPGac6ygXAs/C8kIvw==}
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
@@ -337,7 +337,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.4
-      caniuse-lite: 1.0.30001445
+      caniuse-lite: 1.0.30001446
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -352,7 +352,7 @@ packages:
       '@babel/core': ^7.0.0
     dependencies:
       '@babel/helper-plugin-utils': 7.20.2
-      '@babel/parser': 7.20.7
+      '@babel/parser': 7.20.13
       lodash.isplainobject: 4.0.6
       resolve: 1.22.1
       svgo: 2.8.0
@@ -389,7 +389,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001445
+      caniuse-lite: 1.0.30001446
       electron-to-chromium: 1.4.284
       node-releases: 2.0.8
       update-browserslist-db: 1.0.10_browserslist@4.21.4
@@ -400,8 +400,8 @@ packages:
     engines: {node: '>= 6'}
     dev: false
 
-  /caniuse-lite/1.0.30001445:
-    resolution: {integrity: sha512-8sdQIdMztYmzfTMO6KfLny878Ln9c2M0fc7EH60IjlP4Dc4PiCy7K2Vl3ITmWgOyPgVQKa5x+UP/KqFsxj4mBg==}
+  /caniuse-lite/1.0.30001446:
+    resolution: {integrity: sha512-fEoga4PrImGcwUUGEol/PoFCSBnSkA9drgdkxXkJLsUBOnJ8rs3zDv6ApqYXGQFOyMPsjh79naWhF4DAxbF8rw==}
     dev: false
 
   /chokidar/3.5.3:
@@ -627,7 +627,7 @@ packages:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 5.1.4
+      minimatch: 5.1.6
       once: 1.4.0
     dev: false
 
@@ -732,8 +732,8 @@ packages:
       picomatch: 2.3.1
     dev: false
 
-  /minimatch/5.1.4:
-    resolution: {integrity: sha512-U0iNYXt9wALljzfnGkhFSy5sAC6/SCR3JrHrlsdJz4kF8MvhTRQNiC59iUi1iqsitV7abrNAJWElVL9pdnoUgw==}
+  /minimatch/5.1.6:
+    resolution: {integrity: sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==}
     engines: {node: '>=10'}
     dependencies:
       brace-expansion: 2.0.1
@@ -769,7 +769,7 @@ packages:
     dependencies:
       '@next/env': 12.3.4
       '@swc/helpers': 0.4.11
-      caniuse-lite: 1.0.30001445
+      caniuse-lite: 1.0.30001446
       postcss: 8.4.14
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
