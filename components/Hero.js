@@ -25,7 +25,7 @@ const Hero = ({
           variants={scrollAnimation}
         >
           <div className=" flex flex-col justify-center items-start row-start-2 sm:row-start-1">
-            <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal">
+            <h1 className="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-500-600 leading-normal">
               Welcome to global <strong>shrimp</strong> distributor.
             </h1>
             <p className="text-black-500 mt-4 mb-6">
@@ -65,7 +65,7 @@ const Hero = ({
                   <img src={listUsers.icon} alt="icon" className="h-6 w-6" />
                 </div>
                 <div className="flex flex-col">
-                  <p className="text-xl text-black-600 font-bold">
+                  <p className="text-xl text-black-500-600 font-bold">
                     {listUsers.number}+
                   </p>
                   <p className="text-lg text-black-500">{listUsers.name}</p>

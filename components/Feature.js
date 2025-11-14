@@ -35,7 +35,7 @@ const Feature = () => {
         <ScrollAnimationWrapper>
 
         <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
-          <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600">
+          <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-500-600">
             We Provide Best Quality Shrimp
           </h3>
           <p className="my-2 text-black-500">

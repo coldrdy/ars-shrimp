@@ -19,7 +19,7 @@ const Gallery = () => {
                     <ScrollAnimationWrapper>
                         <motion.h3
                             variants={scrollAnimation}
-                            className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto"
+                            className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-500-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto"
                         >
                             Gallery{" "}
                         </motion.h3>

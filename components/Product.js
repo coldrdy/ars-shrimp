@@ -19,7 +19,7 @@ const Product = () => {
                     <ScrollAnimationWrapper>
                         <motion.h3
                             variants={scrollAnimation}
-                            className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed"
+                            className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-500-600 leading-relaxed"
                         >
                             Products
                         </motion.h3>
@@ -43,7 +43,7 @@ const Product = () => {
                                         alt="Vannamei"
                                     />
                                 </div>
-                                <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+                                <p className="text-lg text-black-500-600 font-medium capitalize my-2 sm:my-7">
                                     Vannamei
                                 </p>
                                 <p className="text-md text-black-500 font-light text-justify mb-9">
@@ -61,7 +61,7 @@ const Product = () => {
                                     </li>
                                 </ul>
                                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                                    {/* <p className="text-2xl text-black-600 text-center mb-4 ">
+                                    {/* <p className="text-2xl text-black-500-600 text-center mb-4 ">
                                         Free
                                     </p> */}
                                     <ButtonOutline><Link href="https://wa.me/6283103245728">Discussion</Link></ButtonOutline>
@@ -87,7 +87,7 @@ const Product = () => {
                                         alt="Standard Plan"
                                     />
                                 </div>
-                                <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+                                <p className="text-lg text-black-500-600 font-medium capitalize my-2 sm:my-7">
                                     Standard Plan{" "}
                                 </p>
                                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
@@ -108,7 +108,7 @@ const Product = () => {
                                     </li>
                                 </ul>
                                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                                    <p className="text-2xl text-black-600 text-center mb-4 ">
+                                    <p className="text-2xl text-black-500-600 text-center mb-4 ">
                                         $9 <span className="text-black-500">/ mo</span>
                                     </p>
                                     <ButtonOutline>Select</ButtonOutline>
@@ -134,7 +134,7 @@ const Product = () => {
                                         alt="Premium Plan"
                                     />
                                 </div>
-                                <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+                                <p className="text-lg text-black-500-600 font-medium capitalize my-2 sm:my-7">
                                     Premium Plan{" "}
                                 </p>
                                 <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
@@ -158,7 +158,7 @@ const Product = () => {
                                     </li>
                                 </ul>
                                 <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                                    <p className="text-2xl text-black-600 text-center mb-4 ">
+                                    <p className="text-2xl text-black-500-600 text-center mb-4 ">
                                         $12 <span className="text-black-500">/ mo</span>
                                     </p>
 
